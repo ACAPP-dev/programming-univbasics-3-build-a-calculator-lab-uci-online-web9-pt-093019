@@ -15,11 +15,11 @@ def multiplication(num1, num2)
 end
 
 def modulo(num1, num2)
- (num1 / num2).remainder
+ (num1 / num2).remainder.Integer
  
 end
 
 def square_root(num)
- num.square_root
+ Math.square_root(num)
  
 end
